@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--color       颜色
+        dimension   设置像素
+        string      文本
+        reference   图片
+    -->
+
+    <declare-styleable name="MyCustomActionBar">
+        <attr name="action_bar_bg_color" format="color"/>
+        <attr name="action_bar_title_text_color" format="color"/>
+        <attr name="action_bar_title_text_size" format="dimension"/>
+        <attr name="action_bar_title_text" format="string"/>
+        <attr name="action_bar_icon_src" format="reference"/>
+    </declare-styleable>
+
+</resources>
